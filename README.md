@@ -1,27 +1,44 @@
-# 🎮 Rock Paper Scissors - Python Mini Project
+# 🎮 Rock Paper Scissors Game
 
-This is a simple yet fun Rock, Paper, Scissors game developed using **Python** and **Tkinter** GUI. It includes exciting features like a countdown timer, match history, and a reset button. Perfect as a beginner-level project to practice Python GUI development.
-
----
-
-## 🧩 Features
-
-- 🖱️ GUI with Buttons for Rock, Paper, and Scissors
-- ⏱️ Countdown Timer before showing result
-- 📜 Match History Tracker
-- 🔁 Restart / Reset Functionality
-- 🎨 Clean, User-Friendly Interface
+A modern twist on the classic Rock-Paper-Scissors game built using Python and Tkinter.  
+Includes countdown timer, match history, reset functionality, and a cool UI.
 
 ---
 
-## 🚀 Getting Started
+## 📸 Demo
 
-### 🔧 Requirements
+![Game Screenshot](assets/screenshot.png) <!-- Add a screenshot of your game GUI here -->
 
-- Python 3.x
-- Tkinter (comes pre-installed with Python)
+---
 
-### ▶️ How to Run
+## 🚀 Features
+
+- 🧠 Smart result logic (Win/Lose/Draw)
+- ⏱ Countdown timer before each move
+- 🔄 Restart/reset button
+- 📝 Match history log
+- 🖌 Custom fonts, colors, and styled buttons
+- 📦 Packaged as a `.exe` (Windows executable)
+
+---
+
+## 🛠 Tech Stack
+
+- `Python 3.13.2`
+- `Tkinter` (GUI)
+- `random` module
+- `pyinstaller` (for .exe generation)
+
+---
+
+## 🔧 Installation & Run Locally
 
 ```bash
+# Clone the repo
+git clone https://github.com/Bikash07-git/rock_paper_scissors.git
+
+# Change to directory
+cd rock_paper_scissors
+
+# Run the game
 python game.py
