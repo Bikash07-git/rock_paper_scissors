@@ -5,12 +5,6 @@ Includes countdown timer, match history, reset functionality, and a cool UI.
 
 ---
 
-## 📸 Demo
-
-![Game Screenshot](assets/screenshot.png) <!-- Add a screenshot of your game GUI here -->
-
----
-
 ## 🚀 Features
 
 - 🧠 Smart result logic (Win/Lose/Draw)
