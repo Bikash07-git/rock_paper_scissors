@@ -122,7 +122,7 @@ def reset_game():
     computer_label.config(image="")
     history_list.delete(0, tk.END)
 
-# 🧮 Styled buttons
+# 🧮 Styled buttons for enhanced user experiece
 button_frame = tk.Frame(root, bg="#1e1e1e")
 button_frame.pack(pady=20)
 
@@ -163,3 +163,4 @@ history_list.pack(pady=10)
 
 # 🚀 Run the game
 root.mainloop()
+# Trigger GitHub Linguist
